@@ -1,4 +1,4 @@
-# Devcourse-team1-2-Dashboard
+# LPOINT 로그데이터 분석 및 시각화
 
 ## 📌프로젝트 개요
 
