@@ -13,6 +13,7 @@
 
 - 프로젝트 명 : LPOINT 로그데이터 분석 및 시각화
 - 프로젝트 기간 : 2023.05.29 ~ 2023.06.02
+- LPOINT Click Stream 데이터를 Redshift 및 Snowflake에 적재 후, <br> LPOINT 서비스를 이용한 고객이 어떤 행동을 하는지 분석하고, 이를 시각화하여 보여주는 프로젝트입니다.
 
 ## Skill Stack
 - Snowflake
@@ -42,21 +43,26 @@
 
 ## Data Warehouse Architecture
 - 데이터 웨어하우스 클러스터 내부 테이블 ERD 설계는 아래와 같이 진행하였습니다.
-
+    - Fact : Fact_Purchase_Session
+    - Dimension : Dim_Product, Dim_Client 
+    <br>
     <img src="./ETC/ERD.png" width="70%" height="70%">
 
 ---------------
 
 ## Visualization Dashboard Configuration
+- 총 5개의 카테고리로 대시보드가 구성되었습니다 (Users, Product, Sales, Cohort, Insight)
 
-- MAU
+- Users
 
-    <img src="./Dashboard/MAU.png" width="70%" height="70%">
+    - MAU
 
-- DAU
+        <img src="./Dashboard/MAU.png" width="70%" height="70%">
 
-    <img src="./Dashboard/DAU1.png" width="70%" height="70%">
-    <img src="./Dashboard/DAU2.png" width="70%" height="70%">
+    - DAU
+
+        <img src="./Dashboard/DAU1.png" width="70%" height="70%">
+        <img src="./Dashboard/DAU2.png" width="70%" height="70%">
 
 - Product
 
