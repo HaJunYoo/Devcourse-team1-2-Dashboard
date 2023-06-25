@@ -39,7 +39,7 @@
 
     - Schema Setting
 
-        <img src="./ETC/AWS_overall_setting.jpg" width="70%" height="70%">
+        <img src="./ETC/DW_schema_setting.jpg" width="70%" height="70%">
 
 ## Data Warehouse Architecture
 - 데이터 웨어하우스 클러스터 내부 테이블 ERD 설계는 아래와 같이 진행하였습니다.
